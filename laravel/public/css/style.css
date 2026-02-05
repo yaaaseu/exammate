@@ -1,0 +1,128 @@
+body {
+    background-color: #f4f7fb;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: #5b93d3;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.menu li:hover,
+.menu .active {
+    background-color: #0d3b66;
+}
+
+/* Topbar */
+.topbar {
+    background: #e8f1fb;
+    padding: 15px;
+}
+
+/* Content */
+.topic-card {
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    cursor: pointer;
+}
+.topic-text{
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+.topic-card:hover {
+    background-color: #eef4ff;
+}
+
+.text-blue-custom {
+    color: #2f80ed;
+}
+
+.text-soft-gray {
+    color: #6c757d;
+}
+/* =========================
+   QUESTION PAGE
+========================= */
+
+.question-list-card {
+    background: #ffffff;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 600px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.question-item {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e5e7eb;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.question-item:hover {
+    background-color: #eef4ff;
+}
+
+.question-item.active {
+    background-color: #e8f1fb;
+    font-weight: 600;
+}
+
+/* =========================
+   QUESTION CARD
+========================= */
+
+.question-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    overflow: hidden;
+}
+
+.question-header {
+    background-color: #5b93d3;
+    color: #ffffff;
+    padding: 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.nav-arrow {
+    background: transparent;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.question-body {
+    padding: 24px;
+    font-size: 15px;
+    line-height: 1.7;
+}
