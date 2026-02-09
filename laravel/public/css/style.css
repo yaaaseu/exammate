@@ -18,7 +18,6 @@ body {
 }
 
 
-/* Sidebar tertutup */
 .sidebar.closed {
     transform: translateX(-100%);
 }
@@ -72,8 +71,6 @@ body {
 
 .sidebar:not(.closed) ~ .main-content {
     margin-left: 260px;
-    transform: scale(0.96);
-    box-shadow: -8px 0 20px rgba(0, 0, 0, 0.08);
 }
 
 /* Content */
@@ -101,10 +98,6 @@ body {
 .text-soft-gray {
     color: #6c757d;
 }
-/* =========================
-   QUESTION PAGE
-========================= */
-
 .question-list-card {
     background: #ffffff;
     border-radius: 10px;
@@ -128,11 +121,6 @@ body {
     background-color: #e8f1fb;
     font-weight: 600;
 }
-
-/* =========================
-   QUESTION CARD
-========================= */
-
 .question-card {
     background: #ffffff;
     border-radius: 10px;
