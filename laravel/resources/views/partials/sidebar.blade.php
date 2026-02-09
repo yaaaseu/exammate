@@ -1,15 +1,36 @@
-<div class="sidebar">
+<div class="sidebar closed" id="sidebar">
     <h5 class="sidebar-title">Past Papers</h5>
 
     <ul class="menu">
-        <li class="active">Topical Past Paper</li>
-        <li>CIE IGCSE</li>
-        <li>CIE A-Level</li>
-        <li>Edexcel IGCSE</li>
-        <li>Edexcel A-Level</li>
-        <li>IB Diploma</li>
-        <li>OCR GCSE (9-1)</li>
-        <li>AQA GCSE</li>
-        <li>Malaysia SPM</li>
+        <li class="active">
+            <a href="#">Topical Past Paper</a>
+        </li>
+        <li>
+            <a href="#">TEST MENU</a>
+        </li>
+        <li>
+            <a href="#">CIE IGCSE</a>
+        </li>
+        <li>
+            <a href="#">CIE A-Level</a>
+        </li>
+        <li>
+            <a href="#">Edexcel IGCSE</a>
+        </li>
+        <li>
+            <a href="#">Edexcel A-Level</a>
+        </li>
+        <li>
+            <a href="#">IB Diploma</a>
+        </li>
+        <li>
+            <a href="#">OCR GCSE (9-1)</a>
+        </li>
+        <li>
+            <a href="#">AQA GCSE</a>
+        </li>
+        <li>
+            <a href="#">Malaysia SPM</a>
+        </li>
     </ul>
 </div>

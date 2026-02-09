@@ -10,20 +10,22 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 </head>
 <body>
 
-<div class="d-flex">
-    @include('partials.sidebar')
+        @include('partials.sidebar')
 
-    <div class="main-content w-100">
-        @include('partials.topbar')
-
-        <div class="content p-4">
+    <div id="mainContent" class="main-content">
+                    @include('partials.topbar')
+        <main class="p-4">
             @yield('content')
-        </div>
+        </main>
     </div>
-</div>
+
+    <script src="{{ asset('assets/js/sidebar.js') }}"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>

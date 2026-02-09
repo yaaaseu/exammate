@@ -30,14 +30,13 @@
     </div>
     <div class="col-md-1 d-flex align-items-center">
         <button class="btn btn-primary-custom w-100">
-            🔍
+            <span class="material-icons">search</span>
         </button>
     </div>
 </div>
 
-<!-- MAIN CONTENT -->
+
 <div class="row">
-    <!-- QUESTION LIST -->
     <div class="col-md-4">
         <div class="question-list-card">
             @for ($i = 1; $i <= 15; $i++)
@@ -48,16 +47,15 @@
         </div>
     </div>
 
-    <!-- QUESTION CONTENT -->
     <div class="col-md-8">
-        <div class="question-card">
+        <div class="question-card ">
             <div class="question-header">
                 <button class="nav-arrow">‹</button>
                 <span>Question - 1</span>
                 <button class="nav-arrow">›</button>
             </div>
 
-            <div class="question-body">
+            <div class="question-body ma-3">
                 <p>
                     In a class of 30 students, 17 are studying politics, 14 are studying
                     economics and 10 are studying both of these subjects.
@@ -76,12 +74,28 @@
                     <strong>(iii)</strong> exactly one of these subjects. <span class="float-end">[1]</span>
                 </p>
 
-                <button class="btn btn-secondary mt-4">
-                    👁 Show Answer
+                <button onclick="toggleAnswer(this)" class="btn btn-outline-secondary d-flex align-items-center gap-2">
+                    <span class="material-icons">visibility</span>
+                    Show Answer
                 </button>
+
+
+             <div class="answer-card mt-3">
+                <strong>Answer:</strong>
+                <p>
+                    Total students = 30 <br>
+                    Politics only = 17 − 10 = 7 <br>
+                    Economics only = 14 − 10 = 4 <br>
+                    Neither = 30 − (7 + 4 + 10) = <strong>9</strong>
+                </p>
             </div>
+            </div>
+
         </div>
-    </div>
+
+
+
+</div>
 </div>
 
 @endsection

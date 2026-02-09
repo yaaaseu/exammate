@@ -38,11 +38,21 @@
     <div class="topic-card">
         <a href="{{ route('topic.detail') }}" class="topic-text">CH 2 - INTERSECTION POINTS</a>
     </div>
-    <div class="topic-card">CH 3 - SURDS, INDICES, LOG</div>
-    <div class="topic-card">CH 4 - FACTOR THEOREM</div>
-    <div class="topic-card">CH 5 - MATRICES (Exclude)</div>
-    <div class="topic-card">CH 6 - COORDINATE GEOMETRY</div>
-    <div class="topic-card">CH 7 - LINEAR LAW</div>
+    <div class="topic-card">
+        <a href="{{ route('topic.detail') }}" class="topic-text">CH 3 - SURDS, INDICES, LOG</a>
+    </div>
+    <div class="topic-card">
+        <a href="{{ route('topic.detail') }}" class="topic-text">CH 4 - FACTOR THEOREM</a>
+    </div>
+    <div class="topic-card">
+        <a href="{{ route('topic.detail') }}" class="topic-text">CH 5 - MATRICES (Exclude)</a>
+    </div>
+    <div class="topic-card">
+        <a href="{{ route('topic.detail') }}" class="topic-text">CH 6 - COORDINATE GEOMETRY</a>
+    </div>
+    <div class="topic-card">
+        <a href="{{ route('topic.detail') }}" class="topic-text">CH 7 - LINEAR LAW</a>
+    </div>
 </div>
 
 @endsection
